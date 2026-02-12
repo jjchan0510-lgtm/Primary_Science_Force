@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const quizBtn = document.getElementById('quizBtn');
 
   videoBtn.addEventListener('click', function () {
-    alert('Navigate to Video section (placeholder)');
+    alert('Video section will be available soon.');
   });
 
   quizBtn.addEventListener('click', function () {
-    alert('Navigate to Quiz section (placeholder)');
+    window.location.href = 'quiz.html';
   });
 });

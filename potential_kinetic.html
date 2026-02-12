@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Potential and Kinetic Energy — Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="menu" style="max-width:900px;">
+      <h1 class="title">Potential and Kinetic Energy</h1>
+
+      <form id="quizForm">
+        <section>
+          <h2>Matching: Match the term to its definition</h2>
+          <p>Terms: Potential Energy, Kinetic Energy, Height, Speed</p>
+          <ol>
+            <li>
+              Potential Energy
+              <select name="m1">
+                <option value="">— select —</option>
+                <option value="A">A. Energy of motion</option>
+                <option value="B">B. How fast an object moves</option>
+                <option value="C">C. Stored energy due to position</option>
+                <option value="D">D. How high an object is above the ground</option>
+              </select>
+            </li>
+            <li>
+              Kinetic Energy
+              <select name="m2">
+                <option value="">— select —</option>
+                <option value="A">A. Energy of motion</option>
+                <option value="B">B. How fast an object moves</option>
+                <option value="C">C. Stored energy due to position</option>
+                <option value="D">D. How high an object is above the ground</option>
+              </select>
+            </li>
+            <li>
+              Height
+              <select name="m3">
+                <option value="">— select —</option>
+                <option value="A">A. Energy of motion</option>
+                <option value="B">B. How fast an object moves</option>
+                <option value="C">C. Stored energy due to position</option>
+                <option value="D">D. How high an object is above the ground</option>
+              </select>
+            </li>
+            <li>
+              Speed
+              <select name="m4">
+                <option value="">— select —</option>
+                <option value="A">A. Energy of motion</option>
+                <option value="B">B. How fast an object moves</option>
+                <option value="C">C. Stored energy due to position</option>
+                <option value="D">D. How high an object is above the ground</option>
+              </select>
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Fill in the blanks</h2>
+          <p>
+            When an object is at the top of a ramp, it has
+            <select name="f1">
+              <option value="the highest">the highest</option>
+              <option value="the lowest">the lowest</option>
+            </select>
+            potential energy.
+          </p>
+
+          <p>
+            As the object moves down, potential energy
+            <select name="f2">
+              <option value="increases">increases</option>
+              <option value="decreases">decreases</option>
+            </select>.
+          </p>
+
+          <p>
+            As speed increases, kinetic energy
+            <select name="f3">
+              <option value="increases">increases</option>
+              <option value="decreases">decreases</option>
+            </select>.
+          </p>
+
+          <p>
+            Energy is not lost; it is
+            <select name="f4">
+              <option value="transformed">transformed</option>
+              <option value="escaped">escaped</option>
+            </select>.
+          </p>
+        </section>
+
+        <div style="display:flex;gap:1rem;justify-content:center;margin-top:1rem;">
+          <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+          <a class="btn" href="quiz.html" style="background:#f3f4f6;color:#0f172a;box-shadow:none;border:1px solid rgba(0,0,0,0.06);">Back</a>
+        </div>
+
+        <div id="result" style="margin-top:1rem;text-align:center;font-weight:600;"></div>
+      </form>
+    </main>
+
+    <script src="potential.js"></script>
+  </body>
+</html>
