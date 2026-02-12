@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Friction — Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="menu" style="max-width:900px;">
+      <h1 class="title">Friction</h1>
+
+      <form id="quizForm">
+        <section>
+          <h2>True / False Questions</h2>
+          <p>
+            1. Friction is a force that appears when two surfaces touch and move against each other.
+            <select name="tf1">
+              <option value="">— select —</option>
+              <option value="True">True</option>
+              <option value="False">False</option>
+            </select>
+          </p>
+
+          <p>
+            2. Friction only exists when objects are moving or trying to move.
+            <select name="tf2">
+              <option value="">— select —</option>
+              <option value="True">True</option>
+              <option value="False">False</option>
+            </select>
+          </p>
+        </section>
+
+        <section>
+          <h2>Fill in the blanks</h2>
+          <p>
+            1. Friction acts in the
+            <select name="f1">
+              <option value="">— select —</option>
+              <option value="same">same</option>
+              <option value="opposite">opposite</option>
+            </select>
+            direction of motion.
+          </p>
+
+          <p>
+            2. Friction
+            <select name="f2">
+              <option value="">— select —</option>
+              <option value="does">does</option>
+              <option value="does not">does not</option>
+            </select>
+            help the car move.
+          </p>
+
+          <p>
+            3. Friction makes moving objects
+            <select name="f3">
+              <option value="">— select —</option>
+              <option value="slow down">slow down</option>
+              <option value="move faster">move faster</option>
+            </select>.
+          </p>
+        </section>
+
+        <div style="display:flex;gap:1rem;justify-content:center;margin-top:1rem;">
+          <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+          <a class="btn" href="quiz.html" style="background:#f3f4f6;color:#0f172a;box-shadow:none;border:1px solid rgba(0,0,0,0.06);">Back</a>
+        </div>
+
+        <div id="result" style="margin-top:1rem;text-align:center;font-weight:600;"></div>
+      </form>
+    </main>
+
+    <script src="friction.js"></script>
+  </body>
+</html>
