@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const quizBtn = document.getElementById('quizBtn');
 
   videoBtn.addEventListener('click', function () {
-    alert('Video section will be available soon.');
+    window.location.href = 'video.html';
   });
 
   quizBtn.addEventListener('click', function () {
